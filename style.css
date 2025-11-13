@@ -1,4 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+
 /* RESET */ 
 
 * {
@@ -39,6 +45,10 @@ justify-content:flex-end;
 
 .flex-start {
 justify-content:flex-start;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* alignement verticale */
@@ -91,11 +101,11 @@ gap:12px;
 }
 
 .bg-baniere {
-    background-image: url(asset/images/banniere3.png);
+    background-image: url(asset-architecture/hero-img.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200vh;
+    height: 100vh;
 }
 
 .trait {
@@ -175,4 +185,18 @@ body {
 
 .footer {
     align-content: space-around;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+
+.police {
+   font-family:"Playfair Display", serif; 
+}
+
+.police-2 {
+    font-family: "Outfit", sans-serif ;
+
 }
