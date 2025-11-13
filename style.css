@@ -12,7 +12,7 @@
     padding: 0;
     margin: 0;
     color: rgb(0, 0, 0);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 /* ----------classes fonctionnelles flex box------------ */ 
@@ -81,11 +81,19 @@ gap:12px;
 }
 
 .w-33 {
-    width: 33px;
+    width: 33%;
 }
 
 .w-22 {
-    width: 22px;
+    width: 22%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 /* container */
@@ -108,8 +116,19 @@ gap:12px;
     height: 100vh;
 }
 
+
+.bg-section-2 {
+    background: #996830;
+}
+
 .trait {
     background-color: #FBD784;
+    height: 2px;
+    width: 60px;
+}
+
+.trait-2 {
+    background-color: #ffffff;
     height: 2px;
     width: 60px;
 }
@@ -175,6 +194,12 @@ body {
     margin-bottom: 100px;
 }
 
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+
 .margin-left {
     margin-left: 30px;
 }
@@ -199,4 +224,63 @@ body {
 .police-2 {
     font-family: "Outfit", sans-serif ;
 
+}
+
+.italique {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.img-size {
+
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.border-1 {
+    border: 2px solid #cb980a;
+}
+
+.block {
+    display: block;
+}
+
+input {
+    padding: 4px 8px ;
+    margin-bottom: 16px;
+}
+
+.bg-section-footer {
+    background: #996830;
+    padding: 100px 0 60px 0;
+
+}
+
+.text-size {
+  font-size: 9px;
+}
+
+
+.btn {
+
+    background-color: #996830;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.btn-2 {
+
+    background-color: #000000;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
 }
